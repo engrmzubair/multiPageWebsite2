@@ -7,3 +7,18 @@
 .navbar .nav-link.active{
   border-left: #444 3px solid;
 }
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
