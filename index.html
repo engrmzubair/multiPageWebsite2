@@ -159,29 +159,39 @@
     </div>
   </section>
 
+  <!-- video section -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="" class="video" data-bs-video="https://www.youtube.com/embed/HnwsG9a5riA" data-bs-toggle="modal"
+              data-bs-target="#videomodal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videomodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-bs-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/HnwsG9a5riA" frameborder="0" height="350" width="100%"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -205,7 +215,6 @@
       interval: 6000,
       pause: 'hover'
     });
-
   </script>
 </body>
 
