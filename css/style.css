@@ -77,4 +77,8 @@ body{
 .about-img{
  margin-top: -50px; 
 }
+#main-footer{
+  background-color: black;
+  color: white;
+}
 
