@@ -93,4 +93,16 @@ background:#333;
 #faq .card-header {
   background:#333;
 }
-
+@media screen and (max-width: 767px) {
+  #info {
+    text-align: center;
+  }
+  #newsletter button{
+    width: 90%;
+    /* display: block; */
+  }
+  #newsletter input{
+    width: 90%;
+    margin-right: 0 !important;
+  }
+}
