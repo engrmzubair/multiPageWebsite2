@@ -81,4 +81,16 @@ body{
   background-color: black;
   color: white;
 }
+#faq .card{
+  border: #444;
+}
+.custom-link{
+color: #fff;
+text-decoration: none;
+background:#333;
+}
+#faq .card-body,
+#faq .card-header {
+  background:#333;
+}
 
